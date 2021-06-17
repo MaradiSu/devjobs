@@ -1,11 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
+import { WebView } from 'react-native-webview';
+class MyWebComponent extends Component {
+  render() {
+    return <WebView source={{ uri: 'https://githubjobs-maradisu.vercel.app' }} />;
+  }
+}
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <MyWebComponent/> 
       <StatusBar style="auto" />
     </View>
   );
