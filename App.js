@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { WebView } from 'react-native-webview';
 class MyWebComponent extends Component {
   render() {
-    return <WebView source={{ uri: 'https://githubjobs-maradisu.vercel.app' }} />;
+    return <WebView source={{ uri: 'https://github-jobs-client.vercel.app' }} />;
   }
 }
 export default function App() {
